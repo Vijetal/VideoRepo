@@ -21,6 +21,5 @@ public partial class ShowVideo : System.Web.UI.Page
         Response.Flush();
         Response.End();
 
-        //tryint git.....
-    }
+     }
 }
