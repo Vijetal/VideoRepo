@@ -13,6 +13,7 @@ public partial class VideoUpload : System.Web.UI.Page
 {
     protected void Page_Load(object sender, EventArgs e)
     {
+        btnSave.Text = "&Vave";
         string uname;
         uname = User.Identity.Name;
         uname = uname.ToLower();
