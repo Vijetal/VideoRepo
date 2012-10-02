@@ -13,12 +13,10 @@ public partial class VideoUpload : System.Web.UI.Page
 {
     protected void Page_Load(object sender, EventArgs e)
     {
-        btnSave.Text = "&Vave";
-        string uname;
+         string uname;
         uname = User.Identity.Name;
         uname = uname.ToLower();
         uname = uname.Remove(0, 10);
-        // uname = "mcdermom";
         Session["UserName"] = uname;
         if (Request.QueryString["VideoID"] == null)
         {
